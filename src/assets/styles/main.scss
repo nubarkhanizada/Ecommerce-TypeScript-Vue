@@ -1,0 +1,50 @@
+@import './variables';
+@import './reset';
+@import './media';
+
+body {
+    font-family: $primaryFont;
+    color: $primaryTextColor;
+    // margin-top: 130px;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $primaryColor;
+}
+
+::selection {
+    background: $primaryColor;
+    color: #fff;
+}
+
+.container {
+    padding: 0 3rem;
+}
+
+.router-link-active {
+    color: $primaryColor !important;
+}
+
+input {
+    font-size: 16px;
+    outline: none;
+    color: $secondaryTextColor;
+    background-color: transparent;
+    border: 1px solid $secondaryTextColor;
+    border-radius: 10px;
+    padding: 10px;
+
+    &::placeholder {
+        color: $secondaryTextColor;
+    }
+
+    &:focus {
+        box-shadow: 0 1px 5px $secondaryTextColor;
+        ;
+    }
+}

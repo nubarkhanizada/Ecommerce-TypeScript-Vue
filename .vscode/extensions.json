@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "vue.volar",
+    "box-of-hats.bemhelper",
+    "diz.ecsstractor-port",
+    "antfu.iconify",
+    "glhrmoura.imports-sorter",
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss",
+    "dbaeumer.vscode-eslint",
+    "usernamehw.errorlens"
+  ]
+}
